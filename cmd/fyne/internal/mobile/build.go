@@ -169,18 +169,18 @@ func runBuildImpl(cmd *command) (*packages.Package, error) {
 		}
 	}
 
-	if !nmpkgs["github.com/fyne-io/mobile/app"] {
-		return nil, fmt.Errorf(`%s does not import "github.com/fyne-io/mobile/app"`, pkg.PkgPath)
+	if !nmpkgs["github.com/github.com/ravenlab/mobile/app"] {
+		return nil, fmt.Errorf(`%s does not import "github.com/github.com/ravenlab/mobile/app"`, pkg.PkgPath)
 	}
 
 	return pkg, nil
 }
 
-var nmRE = regexp.MustCompile(`[0-9a-f]{8} t _?(?:.*/vendor/)?(github.com/fyne-io.*/[^.]*)`)
+var nmRE = regexp.MustCompile(`[0-9a-f]{8} t _?(?:.*/vendor/)?(github.com/github.com/ravenlab.*/[^.]*)`)
 
 func extractPkgs(nm string, path string) (map[string]bool, error) {
 	if buildN {
-		return map[string]bool{"github.com/fyne-io/mobile/app": true}, nil
+		return map[string]bool{"github.com/github.com/ravenlab/mobile/app": true}, nil
 	}
 	r, w := io.Pipe()
 	cmd := exec.Command(nm, path)

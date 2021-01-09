@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/theme"
 )
 
 // SettingsSchema is used for loading and storing global settings

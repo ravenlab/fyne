@@ -2,7 +2,7 @@
 
 package templates
 
-import "fyne.io/fyne"
+import "github.com/ravenlab/fyne"
 
 var resourceInfoPlist = &fyne.StaticResource{
 	StaticName: "Info.plist",

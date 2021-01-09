@@ -1,7 +1,7 @@
 package data
 
 import (
-	"fyne.io/fyne"
+	"github.com/ravenlab/fyne"
 )
 
 // ThemedResource is a resource wrapper that will return an appropriate resource

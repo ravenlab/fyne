@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/driver/desktop"
-	"fyne.io/fyne/internal/cache"
-	"fyne.io/fyne/internal/driver"
-	"fyne.io/fyne/internal/test"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/driver/desktop"
+	"github.com/ravenlab/fyne/internal/cache"
+	"github.com/ravenlab/fyne/internal/driver"
+	"github.com/ravenlab/fyne/internal/test"
 
 	"github.com/stretchr/testify/require"
 )

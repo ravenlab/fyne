@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"fyne.io/fyne"
-	_ "fyne.io/fyne/test"
+	"github.com/ravenlab/fyne"
+	_ "github.com/ravenlab/fyne/test"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -38,7 +38,7 @@ func TestFyneApp_OpenURL(t *testing.T) {
 		return exec.Command("")
 	}
 
-	urlStr := "https://fyne.io"
+	urlStr := "https://github.com/ravenlab"
 	u, _ := url.Parse(urlStr)
 	err := app.OpenURL(u)
 

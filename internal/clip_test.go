@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne"
+	"github.com/ravenlab/fyne"
 )
 
 func TestClipStack_Intersect(t *testing.T) {

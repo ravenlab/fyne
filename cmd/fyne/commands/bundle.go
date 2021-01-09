@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 
-	"fyne.io/fyne"
+	"github.com/ravenlab/fyne"
 )
 
 // Declare conformity to Command interface
@@ -139,7 +139,7 @@ func writeHeader(pkg string, out *os.File) {
 	fmt.Fprintln(out)
 	fmt.Fprintln(out, "package", pkg)
 	fmt.Fprintln(out)
-	fmt.Fprintln(out, "import \"fyne.io/fyne\"")
+	fmt.Fprintln(out, "import \"github.com/ravenlab/fyne\"")
 }
 
 func writeResource(file, name string, out *os.File) {

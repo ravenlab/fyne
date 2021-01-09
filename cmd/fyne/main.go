@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/cmd/fyne/commands"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/cmd/fyne/commands"
 )
 
 var commandList []idCommandPair

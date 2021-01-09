@@ -24,11 +24,11 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/fyne-io/mobile/event/lifecycle"
-	"github.com/fyne-io/mobile/event/paint"
-	"github.com/fyne-io/mobile/event/size"
-	"github.com/fyne-io/mobile/event/touch"
-	"github.com/fyne-io/mobile/geom"
+	"github.com/github.com/ravenlab/mobile/event/lifecycle"
+	"github.com/github.com/ravenlab/mobile/event/paint"
+	"github.com/github.com/ravenlab/mobile/event/size"
+	"github.com/github.com/ravenlab/mobile/event/touch"
+	"github.com/github.com/ravenlab/mobile/geom"
 )
 
 func init() {

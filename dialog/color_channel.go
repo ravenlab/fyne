@@ -3,11 +3,11 @@ package dialog
 import (
 	"strconv"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	internalwidget "fyne.io/fyne/internal/widget"
-	"fyne.io/fyne/theme"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	internalwidget "github.com/ravenlab/fyne/internal/widget"
+	"github.com/ravenlab/fyne/theme"
+	"github.com/ravenlab/fyne/widget"
 )
 
 var _ fyne.Widget = (*colorChannel)(nil)

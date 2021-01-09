@@ -2,7 +2,7 @@
 
 package settings
 
-import "fyne.io/fyne"
+import "github.com/ravenlab/fyne"
 
 var appearanceIcon = &fyne.StaticResource{
 	StaticName: "appearance.svg",

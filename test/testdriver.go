@@ -5,10 +5,10 @@ import (
 	"log"
 	"sync"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/internal/driver"
-	"fyne.io/fyne/internal/painter"
-	"fyne.io/fyne/internal/painter/software"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/internal/driver"
+	"github.com/ravenlab/fyne/internal/painter"
+	"github.com/ravenlab/fyne/internal/painter/software"
 
 	"github.com/goki/freetype/truetype"
 	"golang.org/x/image/font"

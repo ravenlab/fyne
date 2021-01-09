@@ -1,7 +1,7 @@
 package tutorials
 
 import (
-	"fyne.io/fyne"
+	"github.com/ravenlab/fyne"
 )
 
 // Tutorial defines the data structure for a tutorial

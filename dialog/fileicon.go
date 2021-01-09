@@ -1,8 +1,8 @@
 package dialog
 
 import (
-	"fyne.io/fyne"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/widget"
 )
 
 // NewFileIcon takes a filepath and creates an icon with an overlayed label using the detected mimetype and extension

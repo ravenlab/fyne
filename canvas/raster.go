@@ -5,7 +5,7 @@ import (
 	"image/color"
 	"image/draw"
 
-	"fyne.io/fyne"
+	"github.com/ravenlab/fyne"
 )
 
 // Declare conformity with CanvasObject interface

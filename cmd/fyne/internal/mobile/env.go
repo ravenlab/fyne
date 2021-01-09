@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	"fyne.io/fyne"
+	"github.com/ravenlab/fyne"
 )
 
 // General mobile build environment. Initialized by envInit.

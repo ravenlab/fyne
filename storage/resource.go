@@ -3,7 +3,7 @@ package storage
 import (
 	"io/ioutil"
 
-	"fyne.io/fyne"
+	"github.com/ravenlab/fyne"
 )
 
 // LoadResourceFromURI creates a new StaticResource in memory using the contents of the specified URI.

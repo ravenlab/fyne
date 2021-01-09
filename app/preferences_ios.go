@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"unsafe"
 
-	"fyne.io/fyne"
+	"github.com/ravenlab/fyne"
 )
 
 /*

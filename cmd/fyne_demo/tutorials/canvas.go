@@ -4,10 +4,10 @@ import (
 	"image/color"
 	"time"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/layout"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/layout"
+	"github.com/ravenlab/fyne/theme"
 )
 
 func rgbGradient(x, y, w, h int) color.Color {

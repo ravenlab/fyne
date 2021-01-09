@@ -5,11 +5,11 @@ import (
 	"image"
 	"math"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/internal"
-	"fyne.io/fyne/internal/cache"
-	"fyne.io/fyne/internal/painter"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/internal"
+	"github.com/ravenlab/fyne/internal/cache"
+	"github.com/ravenlab/fyne/internal/painter"
 
 	"github.com/goki/freetype"
 	"github.com/goki/freetype/truetype"

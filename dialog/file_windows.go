@@ -4,9 +4,9 @@ import (
 	"os"
 	"syscall"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/storage"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/storage"
+	"github.com/ravenlab/fyne/theme"
 )
 
 func driveMask() uint32 {

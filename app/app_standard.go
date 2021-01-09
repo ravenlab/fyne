@@ -2,6 +2,6 @@
 
 package app
 
-import "fyne.io/fyne"
+import "github.com/ravenlab/fyne"
 
 const buildMode = fyne.BuildStandard

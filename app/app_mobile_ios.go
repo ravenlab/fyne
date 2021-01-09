@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"unsafe"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/theme"
 )
 
 func defaultTheme() fyne.Theme {

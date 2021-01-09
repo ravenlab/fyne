@@ -18,7 +18,7 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/fyne-io/mobile/app"
+	"github.com/github.com/ravenlab/mobile/app"
 )
 
 type javaStream struct {

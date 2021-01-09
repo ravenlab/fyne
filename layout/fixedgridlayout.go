@@ -1,7 +1,7 @@
 package layout
 
 import (
-	"fyne.io/fyne"
+	"github.com/ravenlab/fyne"
 )
 
 // NewFixedGridLayout returns a new FixedGridLayout instance

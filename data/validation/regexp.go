@@ -5,7 +5,7 @@ import (
 	"errors"
 	"regexp"
 
-	"fyne.io/fyne"
+	"github.com/ravenlab/fyne"
 )
 
 // NewRegexp creates a new validator that uses regular expression parsing.

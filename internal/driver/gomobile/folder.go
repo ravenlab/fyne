@@ -3,7 +3,7 @@ package gomobile
 import (
 	"fmt"
 
-	"fyne.io/fyne"
+	"github.com/ravenlab/fyne"
 )
 
 type lister struct {

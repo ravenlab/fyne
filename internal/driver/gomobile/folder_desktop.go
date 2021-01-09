@@ -2,7 +2,7 @@
 
 package gomobile
 
-import "fyne.io/fyne"
+import "github.com/ravenlab/fyne"
 
 func canListURI(fyne.URI) bool {
 	return false

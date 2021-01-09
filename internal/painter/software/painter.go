@@ -4,10 +4,10 @@ import (
 	"image"
 	"image/draw"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/internal"
-	"fyne.io/fyne/internal/driver"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/internal"
+	"github.com/ravenlab/fyne/internal/driver"
 )
 
 // Painter is a simple software painter that can paint a canvas in memory.

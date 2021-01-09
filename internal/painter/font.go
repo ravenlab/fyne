@@ -4,8 +4,8 @@ import (
 	"image"
 	"sync"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/theme"
 	"github.com/goki/freetype/truetype"
 	"golang.org/x/image/font"
 	"golang.org/x/image/math/fixed"

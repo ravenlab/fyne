@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"net/url"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/app"
-	"fyne.io/fyne/cmd/fyne_demo/tutorials"
-	"fyne.io/fyne/cmd/fyne_settings/settings"
-	"fyne.io/fyne/container"
-	"fyne.io/fyne/layout"
-	"fyne.io/fyne/theme"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/app"
+	"github.com/ravenlab/fyne/cmd/fyne_demo/tutorials"
+	"github.com/ravenlab/fyne/cmd/fyne_settings/settings"
+	"github.com/ravenlab/fyne/container"
+	"github.com/ravenlab/fyne/layout"
+	"github.com/ravenlab/fyne/theme"
+	"github.com/ravenlab/fyne/widget"
 )
 
 const preferenceCurrentTutorial = "currentTutorial"
@@ -68,16 +68,16 @@ func main() {
 
 	helpMenu := fyne.NewMenu("Help",
 		fyne.NewMenuItem("Documentation", func() {
-			u, _ := url.Parse("https://developer.fyne.io")
+			u, _ := url.Parse("https://developer.github.com/ravenlab")
 			_ = a.OpenURL(u)
 		}),
 		fyne.NewMenuItem("Support", func() {
-			u, _ := url.Parse("https://fyne.io/support/")
+			u, _ := url.Parse("https://github.com/ravenlab/support/")
 			_ = a.OpenURL(u)
 		}),
 		fyne.NewMenuItemSeparator(),
 		fyne.NewMenuItem("Sponsor", func() {
-			u, _ := url.Parse("https://github.com/sponsors/fyne-io")
+			u, _ := url.Parse("https://github.com/sponsors/github.com/ravenlab")
 			_ = a.OpenURL(u)
 		}))
 	mainMenu := fyne.NewMainMenu(

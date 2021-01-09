@@ -3,11 +3,11 @@ package tutorials
 import (
 	"net/url"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/cmd/fyne_demo/data"
-	"fyne.io/fyne/container"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/cmd/fyne_demo/data"
+	"github.com/ravenlab/fyne/container"
+	"github.com/ravenlab/fyne/widget"
 )
 
 func parseURL(urlStr string) *url.URL {
@@ -32,11 +32,11 @@ func welcomeScreen(_ fyne.Window) fyne.CanvasObject {
 		widget.NewLabelWithStyle("Welcome to the Fyne toolkit demo app", fyne.TextAlignCenter, fyne.TextStyle{Bold: true}),
 		logo,
 		container.NewHBox(
-			widget.NewHyperlink("fyne.io", parseURL("https://fyne.io/")),
+			widget.NewHyperlink("github.com/ravenlab", parseURL("https://github.com/ravenlab/")),
 			widget.NewLabel("-"),
-			widget.NewHyperlink("documentation", parseURL("https://fyne.io/develop/")),
+			widget.NewHyperlink("documentation", parseURL("https://github.com/ravenlab/develop/")),
 			widget.NewLabel("-"),
-			widget.NewHyperlink("sponsor", parseURL("https://github.com/sponsors/fyne-io")),
+			widget.NewHyperlink("sponsor", parseURL("https://github.com/sponsors/github.com/ravenlab")),
 		),
 	))
 }

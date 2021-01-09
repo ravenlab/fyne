@@ -3,12 +3,12 @@ package gomobile
 import (
 	"image/color"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	internalWidget "fyne.io/fyne/internal/widget"
-	"fyne.io/fyne/layout"
-	"fyne.io/fyne/theme"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	internalWidget "github.com/ravenlab/fyne/internal/widget"
+	"github.com/ravenlab/fyne/layout"
+	"github.com/ravenlab/fyne/theme"
+	"github.com/ravenlab/fyne/widget"
 )
 
 type menuLabel struct {

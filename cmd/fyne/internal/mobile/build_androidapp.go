@@ -19,7 +19,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"fyne.io/fyne/cmd/fyne/internal/mobile/binres"
+	"github.com/ravenlab/fyne/cmd/fyne/internal/mobile/binres"
 	"golang.org/x/tools/go/packages"
 )
 
@@ -146,11 +146,11 @@ func goAndroidBuild(pkg *packages.Package, bundleID string, androidArchs []strin
 
 	for _, arch := range androidArchs {
 		toolchain := ndk.Toolchain(arch)
-		if nmpkgs[arch]["github.com/fyne-io/mobile/exp/audio/al"] {
+		if nmpkgs[arch]["github.com/github.com/ravenlab/mobile/exp/audio/al"] {
 			dst := "lib/" + toolchain.abi + "/libopenal.so"
 			src := filepath.Join(gomobilepath, dst)
 			if _, err := os.Stat(src); err != nil {
-				return nil, errors.New("the Android requires the github.com/fyne-io/mobile/exp/audio/al, but the OpenAL libraries was not found. Please run gomobile init with the -openal Flag pointing to an OpenAL source directory")
+				return nil, errors.New("the Android requires the github.com/github.com/ravenlab/mobile/exp/audio/al, but the OpenAL libraries was not found. Please run gomobile init with the -openal Flag pointing to an OpenAL source directory")
 			}
 			if err := apkwWriteFile(dst, src, apkw); err != nil {
 				return nil, err

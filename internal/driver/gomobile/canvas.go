@@ -6,15 +6,15 @@ import (
 	"math"
 	"time"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/driver/mobile"
-	"fyne.io/fyne/internal"
-	"fyne.io/fyne/internal/app"
-	"fyne.io/fyne/internal/cache"
-	"fyne.io/fyne/internal/driver"
-	"fyne.io/fyne/internal/painter/gl"
-	"fyne.io/fyne/theme"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/driver/mobile"
+	"github.com/ravenlab/fyne/internal"
+	"github.com/ravenlab/fyne/internal/app"
+	"github.com/ravenlab/fyne/internal/cache"
+	"github.com/ravenlab/fyne/internal/driver"
+	"github.com/ravenlab/fyne/internal/painter/gl"
+	"github.com/ravenlab/fyne/theme"
+	"github.com/ravenlab/fyne/widget"
 )
 
 type mobileCanvas struct {

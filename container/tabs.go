@@ -1,8 +1,8 @@
 package container
 
 import (
-	"fyne.io/fyne"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/widget"
 )
 
 // AppTabs container is used to split your application into various different areas identified by tabs.

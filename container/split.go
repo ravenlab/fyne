@@ -1,8 +1,8 @@
 package container
 
 import (
-	"fyne.io/fyne"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/widget"
 )
 
 // Split defines a container whose size is split between two children.

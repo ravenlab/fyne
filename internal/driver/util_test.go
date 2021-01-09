@@ -4,13 +4,13 @@ import (
 	"image/color"
 	"testing"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/internal/driver"
-	internal_widget "fyne.io/fyne/internal/widget"
-	"fyne.io/fyne/layout"
-	_ "fyne.io/fyne/test"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/internal/driver"
+	internal_widget "github.com/ravenlab/fyne/internal/widget"
+	"github.com/ravenlab/fyne/layout"
+	_ "github.com/ravenlab/fyne/test"
+	"github.com/ravenlab/fyne/widget"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -3,7 +3,7 @@ package canvas
 import (
 	"testing"
 
-	"fyne.io/fyne"
+	"github.com/ravenlab/fyne"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -4,9 +4,9 @@ import (
 	"runtime"
 	"testing"
 
-	"fyne.io/fyne/storage"
+	"github.com/ravenlab/fyne/storage"
 
-	_ "fyne.io/fyne/test"
+	_ "github.com/ravenlab/fyne/test"
 
 	"github.com/stretchr/testify/assert"
 )

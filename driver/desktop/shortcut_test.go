@@ -3,7 +3,7 @@ package desktop
 import (
 	"testing"
 
-	"fyne.io/fyne"
+	"github.com/ravenlab/fyne"
 )
 
 func TestCustomShortcut_Shortcut(t *testing.T) {

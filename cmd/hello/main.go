@@ -2,8 +2,8 @@
 package main
 
 import (
-	"fyne.io/fyne/app"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne/app"
+	"github.com/ravenlab/fyne/widget"
 )
 
 func main() {

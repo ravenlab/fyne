@@ -8,12 +8,12 @@ import (
 	"image"
 	"image/draw"
 
-	"github.com/fyne-io/mobile/exp/f32"
-	"github.com/fyne-io/mobile/gl"
+	"github.com/github.com/ravenlab/mobile/exp/f32"
+	"github.com/github.com/ravenlab/mobile/gl"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/theme"
 )
 
 // Buffer represents a GL buffer

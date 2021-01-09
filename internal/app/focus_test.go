@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"fyne.io/fyne/internal/app"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne/internal/app"
+	"github.com/ravenlab/fyne/widget"
 
 	"github.com/stretchr/testify/assert"
 )

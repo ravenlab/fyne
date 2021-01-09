@@ -5,9 +5,9 @@ package dialog
 import (
 	"path/filepath"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/storage"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/storage"
+	"github.com/ravenlab/fyne/theme"
 )
 
 func (f *fileDialog) loadPlaces() []fyne.CanvasObject {

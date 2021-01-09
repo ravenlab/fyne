@@ -3,8 +3,8 @@ package test_test
 import (
 	"testing"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/test"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/test"
 
 	"github.com/stretchr/testify/assert"
 )

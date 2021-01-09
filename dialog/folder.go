@@ -1,8 +1,8 @@
 package dialog
 
 import (
-	"fyne.io/fyne"
-	"fyne.io/fyne/storage"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/storage"
 )
 
 var folderFilter = storage.NewMimeTypeFileFilter([]string{"application/x-directory"})

@@ -4,9 +4,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"fyne.io/fyne/storage"
+	"github.com/ravenlab/fyne/storage"
 
-	"fyne.io/fyne/test"
+	"github.com/ravenlab/fyne/test"
 	"github.com/stretchr/testify/assert"
 )
 

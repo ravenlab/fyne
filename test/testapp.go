@@ -1,15 +1,15 @@
 // Package test provides utility drivers for running UI tests without rendering
-package test // import "fyne.io/fyne/test"
+package test // import "github.com/ravenlab/fyne/test"
 
 import (
 	"net/url"
 	"sync"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/internal"
-	"fyne.io/fyne/internal/app"
-	"fyne.io/fyne/internal/painter"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/internal"
+	"github.com/ravenlab/fyne/internal/app"
+	"github.com/ravenlab/fyne/internal/painter"
+	"github.com/ravenlab/fyne/theme"
 )
 
 // ensure we have a dummy app loaded and ready to test

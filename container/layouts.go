@@ -1,9 +1,9 @@
 // Package container provides container widgets that are used to lay out and organise applications
-package container // import "fyne.io/fyne/container"
+package container // import "github.com/ravenlab/fyne/container"
 
 import (
-	"fyne.io/fyne"
-	"fyne.io/fyne/layout"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/layout"
 )
 
 // NewAdaptiveGrid creates a new container with the specified objects and using the grid layout.

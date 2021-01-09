@@ -10,9 +10,9 @@ import (
 
 	"github.com/go-gl/gl/v3.2-core/gl"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/theme"
 )
 
 // Buffer represents a GL buffer

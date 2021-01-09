@@ -7,10 +7,10 @@
 package app
 
 import (
-	"github.com/fyne-io/mobile/event/lifecycle"
-	"github.com/fyne-io/mobile/event/size"
-	"github.com/fyne-io/mobile/gl"
-	_ "github.com/fyne-io/mobile/internal/mobileinit"
+	"github.com/github.com/ravenlab/mobile/event/lifecycle"
+	"github.com/github.com/ravenlab/mobile/event/size"
+	"github.com/github.com/ravenlab/mobile/gl"
+	_ "github.com/github.com/ravenlab/mobile/internal/mobileinit"
 )
 
 // Main is called by the main.main function to run the mobile application.

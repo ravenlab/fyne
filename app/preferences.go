@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/internal"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/internal"
 )
 
 type preferences struct {

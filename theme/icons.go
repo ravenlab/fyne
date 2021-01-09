@@ -7,7 +7,7 @@ import (
 	"image/color"
 	"log"
 
-	"fyne.io/fyne"
+	"github.com/ravenlab/fyne"
 )
 
 // ThemedResource is a resource wrapper that will return a version of the resource with the main color changed

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
 )
 
 type rasterInfo struct {

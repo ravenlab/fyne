@@ -1,8 +1,8 @@
 package container
 
 import (
-	"fyne.io/fyne"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/widget"
 )
 
 // Scroll defines a container that is smaller than the Content.

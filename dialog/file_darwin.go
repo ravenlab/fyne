@@ -5,8 +5,8 @@ package dialog
 import (
 	"os"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/storage"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/storage"
 )
 
 func getFavoriteLocations() (map[string]fyne.ListableURI, error) {

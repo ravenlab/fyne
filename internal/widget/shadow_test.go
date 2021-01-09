@@ -3,10 +3,10 @@ package widget_test
 import (
 	"testing"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/internal/widget"
-	"fyne.io/fyne/test"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/internal/widget"
+	"github.com/ravenlab/fyne/test"
+	"github.com/ravenlab/fyne/theme"
 
 	"github.com/stretchr/testify/assert"
 )

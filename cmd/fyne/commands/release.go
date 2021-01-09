@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/cmd/fyne/internal/mobile"
-	"fyne.io/fyne/cmd/fyne/internal/templates"
-	"fyne.io/fyne/cmd/fyne/internal/util"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/cmd/fyne/internal/mobile"
+	"github.com/ravenlab/fyne/cmd/fyne/internal/templates"
+	"github.com/ravenlab/fyne/cmd/fyne/internal/util"
 )
 
 var (

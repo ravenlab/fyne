@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/storage"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/storage"
 )
 
 func TestGLDriver_FileReaderForURI(t *testing.T) {

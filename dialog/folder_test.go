@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/storage"
-	"fyne.io/fyne/test"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/storage"
+	"github.com/ravenlab/fyne/test"
+	"github.com/ravenlab/fyne/widget"
 )
 
 func TestShowFolderOpen(t *testing.T) {

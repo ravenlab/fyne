@@ -16,8 +16,8 @@ import (
 
 	"golang.org/x/sys/windows/registry"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/theme"
 )
 
 const notificationTemplate = `$title = "%s"

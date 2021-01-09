@@ -7,8 +7,8 @@
 //
 //   package main
 //
-//   import "fyne.io/fyne/app"
-//   import "fyne.io/fyne/widget"
+//   import "github.com/ravenlab/fyne/app"
+//   import "github.com/ravenlab/fyne/widget"
 //
 //   func main() {
 //   	a := app.New()
@@ -24,4 +24,4 @@
 //
 //   	w.ShowAndRun()
 //   }
-package fyne // import "fyne.io/fyne"
+package fyne // import "github.com/ravenlab/fyne"

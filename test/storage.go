@@ -3,8 +3,8 @@ package test
 import (
 	"os"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/storage"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/storage"
 )
 
 type testStorage struct {

@@ -18,10 +18,10 @@ import (
 	"os"
 	"unsafe"
 
-	mobileApp "github.com/fyne-io/mobile/app"
+	mobileApp "github.com/github.com/ravenlab/mobile/app"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/theme"
 )
 
 func defaultTheme() fyne.Theme {

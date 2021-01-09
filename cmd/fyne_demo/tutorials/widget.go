@@ -6,13 +6,13 @@ import (
 	"net/url"
 	"time"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/container"
-	"fyne.io/fyne/data/validation"
-	"fyne.io/fyne/layout"
-	"fyne.io/fyne/theme"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/container"
+	"github.com/ravenlab/fyne/data/validation"
+	"github.com/ravenlab/fyne/layout"
+	"github.com/ravenlab/fyne/theme"
+	"github.com/ravenlab/fyne/widget"
 )
 
 const (
@@ -36,7 +36,7 @@ var (
 )
 
 func makeAccordionTab(_ fyne.Window) fyne.CanvasObject {
-	link, err := url.Parse("https://fyne.io/")
+	link, err := url.Parse("https://github.com/ravenlab/")
 	if err != nil {
 		fyne.LogError("Could not parse URL", err)
 	}
@@ -140,7 +140,7 @@ func makeTextGrid() *widget.TextGrid {
 func makeTextTab(_ fyne.Window) fyne.CanvasObject {
 	label := widget.NewLabel("Label")
 
-	link, err := url.Parse("https://fyne.io/")
+	link, err := url.Parse("https://github.com/ravenlab/")
 	if err != nil {
 		fyne.LogError("Could not parse URL", err)
 	}

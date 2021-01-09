@@ -4,10 +4,10 @@ import (
 	"errors"
 	"io"
 
-	"github.com/fyne-io/mobile/app"
+	"github.com/github.com/ravenlab/mobile/app"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/storage"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/storage"
 )
 
 type fileOpen struct {

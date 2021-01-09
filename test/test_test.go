@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/test"
-	"fyne.io/fyne/widget"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/test"
+	"github.com/ravenlab/fyne/widget"
 )
 
 func TestAssertCanvasTappableAt(t *testing.T) {

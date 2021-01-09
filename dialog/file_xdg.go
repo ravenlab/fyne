@@ -8,8 +8,8 @@ import (
 	"os"
 	"os/exec"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/storage"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/storage"
 )
 
 func getFavoriteLocation(homeURI fyne.URI, name, fallbackName string) (fyne.URI, error) {

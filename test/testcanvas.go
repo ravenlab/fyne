@@ -5,11 +5,11 @@ import (
 	"image/draw"
 	"sync"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/driver/desktop"
-	"fyne.io/fyne/internal"
-	"fyne.io/fyne/internal/app"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/driver/desktop"
+	"github.com/ravenlab/fyne/internal"
+	"github.com/ravenlab/fyne/internal/app"
+	"github.com/ravenlab/fyne/theme"
 )
 
 var (

@@ -3,9 +3,9 @@ package dialog
 import (
 	"testing"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/test"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/test"
+	"github.com/ravenlab/fyne/theme"
 
 	"github.com/stretchr/testify/assert"
 )
