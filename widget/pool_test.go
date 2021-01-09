@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/theme"
 )
 
 func TestSyncPool(t *testing.T) {

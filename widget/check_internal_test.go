@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"fyne.io/fyne/driver/desktop"
-	"fyne.io/fyne/test"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne/driver/desktop"
+	"github.com/ravenlab/fyne/test"
+	"github.com/ravenlab/fyne/theme"
 	"github.com/stretchr/testify/assert"
 )
 

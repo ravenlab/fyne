@@ -3,7 +3,7 @@ package widget
 import (
 	"testing"
 
-	"fyne.io/fyne/internal/cache"
+	"github.com/ravenlab/fyne/internal/cache"
 
 	"github.com/stretchr/testify/assert"
 )

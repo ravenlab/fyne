@@ -3,11 +3,11 @@ package widget
 import (
 	"image/color"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/internal/widget"
-	"fyne.io/fyne/layout"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/internal/widget"
+	"github.com/ravenlab/fyne/layout"
+	"github.com/ravenlab/fyne/theme"
 )
 
 // ToolbarItem represents any interface element that can be added to a toolbar

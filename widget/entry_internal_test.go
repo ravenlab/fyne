@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/driver/desktop"
-	"fyne.io/fyne/test"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/driver/desktop"
+	"github.com/ravenlab/fyne/test"
+	"github.com/ravenlab/fyne/theme"
 )
 
 func TestEntry_ExpandSelectionForDoubleTap(t *testing.T) {

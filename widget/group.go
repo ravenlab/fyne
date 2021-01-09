@@ -1,10 +1,10 @@
 package widget
 
 import (
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/internal/widget"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/internal/widget"
+	"github.com/ravenlab/fyne/theme"
 )
 
 // Group widget contains a list of widgets that are grouped under a dividing line and title at the top.

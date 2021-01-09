@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/internal/cache"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/internal/cache"
 )
 
 type extendedLabel struct {

@@ -3,11 +3,11 @@ package widget
 import (
 	"image/color"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/driver/desktop"
-	"fyne.io/fyne/internal/widget"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/driver/desktop"
+	"github.com/ravenlab/fyne/internal/widget"
+	"github.com/ravenlab/fyne/theme"
 )
 
 // PopUpMenu is a Menu which displays itself in an OverlayContainer.

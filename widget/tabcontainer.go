@@ -3,12 +3,12 @@ package widget
 import (
 	"image/color"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/driver/desktop"
-	"fyne.io/fyne/internal"
-	"fyne.io/fyne/layout"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/driver/desktop"
+	"github.com/ravenlab/fyne/internal"
+	"github.com/ravenlab/fyne/layout"
+	"github.com/ravenlab/fyne/theme"
 )
 
 // TabContainer widget allows switching visible content from a list of TabItems.

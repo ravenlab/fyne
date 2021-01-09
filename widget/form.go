@@ -1,11 +1,11 @@
 package widget
 
 import (
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/internal/cache"
-	"fyne.io/fyne/layout"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/internal/cache"
+	"github.com/ravenlab/fyne/layout"
+	"github.com/ravenlab/fyne/theme"
 )
 
 // FormItem provides the details for a row in a form

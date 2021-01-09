@@ -4,17 +4,17 @@ import (
 	"net/url"
 	"testing"
 
-	"fyne.io/fyne"
-	"fyne.io/fyne/driver/desktop"
-	_ "fyne.io/fyne/test"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/driver/desktop"
+	_ "github.com/ravenlab/fyne/test"
+	"github.com/ravenlab/fyne/theme"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
 
 func TestHyperlink_MinSize(t *testing.T) {
-	u, err := url.Parse("https://fyne.io/")
+	u, err := url.Parse("https://github.com/ravenlab/")
 	assert.Nil(t, err)
 
 	hyperlink := NewHyperlink("Test", u)
@@ -32,7 +32,7 @@ func TestHyperlink_MinSize(t *testing.T) {
 }
 
 func TestHyperlink_Cursor(t *testing.T) {
-	u, err := url.Parse("https://fyne.io/")
+	u, err := url.Parse("https://github.com/ravenlab/")
 	hyperlink := NewHyperlink("Test", u)
 
 	assert.Nil(t, err)
@@ -69,7 +69,7 @@ func TestHyperlink_Resize(t *testing.T) {
 }
 
 func TestHyperlink_SetText(t *testing.T) {
-	u, err := url.Parse("https://fyne.io/")
+	u, err := url.Parse("https://github.com/ravenlab/")
 	assert.Nil(t, err)
 
 	hyperlink := &Hyperlink{Text: "Test", URL: u}
@@ -81,7 +81,7 @@ func TestHyperlink_SetText(t *testing.T) {
 }
 
 func TestHyperlink_SetUrl(t *testing.T) {
-	sURL, err := url.Parse("https://github.com/fyne-io/fyne")
+	sURL, err := url.Parse("https://github.com/github.com/ravenlab/fyne")
 	assert.Nil(t, err)
 
 	// test constructor
@@ -89,14 +89,14 @@ func TestHyperlink_SetUrl(t *testing.T) {
 	assert.Equal(t, sURL, hyperlink.URL)
 
 	// test setting functions
-	sURL, err = url.Parse("https://fyne.io")
+	sURL, err = url.Parse("https://github.com/ravenlab")
 	assert.Nil(t, err)
 	hyperlink.SetURL(sURL)
 	assert.Equal(t, sURL, hyperlink.URL)
 }
 
 func TestHyperlink_CreateRendererDoesNotAffectSize(t *testing.T) {
-	u, err := url.Parse("https://github.com/fyne-io/fyne")
+	u, err := url.Parse("https://github.com/github.com/ravenlab/fyne")
 	require.NoError(t, err)
 	link := NewHyperlink("Test", u)
 	link.Resize(link.MinSize())

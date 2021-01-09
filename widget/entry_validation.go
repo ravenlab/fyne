@@ -1,10 +1,10 @@
 package widget
 
 import (
-	"fyne.io/fyne"
-	"fyne.io/fyne/canvas"
-	"fyne.io/fyne/internal/widget"
-	"fyne.io/fyne/theme"
+	"github.com/ravenlab/fyne"
+	"github.com/ravenlab/fyne/canvas"
+	"github.com/ravenlab/fyne/internal/widget"
+	"github.com/ravenlab/fyne/theme"
 )
 
 var _ fyne.Validatable = (*Entry)(nil)
